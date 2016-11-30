@@ -30,6 +30,6 @@ COPY myapp /root/myapp
 
 COPY Rprofile.site /usr/lib/R/etc/
 
-EXPOSE 3838
+EXPOSE 8005
 
 CMD ["R", "-e shiny::runApp('/root/myapp')"]
